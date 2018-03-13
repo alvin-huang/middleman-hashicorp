@@ -16,7 +16,7 @@ docker-push:
 	@docker push "hashicorp/middleman-hashicorp:${VERSION}"
 
 gem:
-	@echo "some new change"
+	@echo "some new change blah blah"
 	@echo "==> Building and releasing gem v${VERSION}..."
 	@rm -rf pkg/
 	@bundle exec rake release
